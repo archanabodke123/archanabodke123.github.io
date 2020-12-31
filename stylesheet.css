@@ -1,0 +1,135 @@
+title{
+font-family: "Times New Roman";
+}
+*{
+box-sizing:border-box;
+}
+
+body {
+  font-family: "Times New Roman";
+  background-color: #FFC300;
+  background-size:cover;
+  text-align:center;
+}
+
+.container{
+width:1170px;
+padding: 0 15px;
+margin: 0 auto;
+}
+
+header{
+height: 65px;
+width: 100%;
+background-color:rgba(34,49,52,0.9);
+position:fixed;
+top:0;
+z-index:10;
+}
+
+.logo{
+width:135px;
+margin:10px 10px;
+}
+
+.header-left{
+float:left;
+}
+
+.welcome h1{
+text-align:left;
+padding-left:50px;
+padding-bottom:10px;
+margin:50px 50px;
+}
+.welcome span{
+color:#ff4a4a;
+}
+
+.welcome img{
+height:150px;
+width:110px;
+margin: -40px 50px;
+float:right;
+}
+.welcome p{
+text-align: justify;
+font-weight:normal;
+font-size:20px;
+}
+
+.topnav{
+background-color:#ddd;
+overflow: hidden;
+margin: 70px 50px;
+}
+
+.topnav a{
+float:left;
+color:#4CAF50;
+text-align:center;
+padding: 14px 16px;
+text-decoration:none;
+font-size:17px;
+font-weight:bold;
+}
+
+.topnav a:hover{
+background-color:#F74840;
+color:black;
+}
+
+.skills h3{
+text-align:left;
+color:#F74840;
+font-size:20px;
+font-weight:bold;
+}
+
+.course-item ul{
+text-align:left;
+font-size:20px;
+font-weight:normal;
+}
+
+.achievement-item ul{
+text-align:left;
+font-size:20px;
+font-weight:normal;
+}
+
+.btn-wrapper{
+margin:20px 0;
+}
+
+.btn{
+padding:12px 24px;
+color:white;
+display:inline-block;
+opacity:0.8;
+border-radius:4px;
+box-shadow:0 7px #1a7940;
+cursor:pointer;
+}
+
+.btn:hover{
+opacity:1;
+}
+
+.btn:active{
+position:relative;
+top:7px;
+box-shadow:none;
+}
+
+.project-link{
+background-color:#239b76;
+}
+
+.footer{
+background-color:#F74840;
+color:black;
+height:150px;
+padding:15px 15px;
+
+}
